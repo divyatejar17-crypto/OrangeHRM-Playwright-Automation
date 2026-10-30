@@ -1,0 +1,22 @@
+
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    //"moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "types": ["node"]
+  },
+  "include": [
+    "tests/**/*.ts",
+    "pages/**/*.ts",
+    "fixtures/**/*.ts",
+    "test-data/**/*.ts",
+    "playwright.config.ts"
+  ]
+}
+
+// Click Ctrl + Shift + P , search for "TypeScript: Restart TS Server" , Enter. (To restart the TypeScript server)
+// This is necessary after changing tsconfig.json or package.json, or after installing new packages. Otherwise, TypeScript may not recognize new types or modules.
